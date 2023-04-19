@@ -1,0 +1,36 @@
+{
+    "cookiecutter": {
+        "project_title": "PyCon Catalogue",
+        "project_name": "pycon-catalogue",
+        "package_name": "pycon_catalogue",
+        "project_camel_case": "PyConCatalogue",
+        "db_env_var": "PYCON_CATALOGUE_DB_PATH",
+        "author_name": "Your Name",
+        "author_email": "name@example.com",
+        "model_name": "talk",
+        "model_class_name": "Talk",
+        "unique_field": "short_name",
+        "unique_field_test_value": "error-messages",
+        "git_initial_commit": "y",
+        "commit_message": "project skeleton generated with cookiecutter-typer-crud",
+        "further_fields": {
+            "title": {
+                "type": "str",
+                "test_value": "Some Cool Topic"
+            },
+            "speaker_name": {
+                "type": "str",
+                "test_value": "Tom & Jerry"
+            },
+            "youtube_video_id": {
+                "type": "str",
+                "test_value": "uh8sdaf"
+            },
+            "duration_total_seconds": {
+                "type": "int",
+                "test_value": 1440
+            }
+        }
+    },
+    "_template": "/home/reka/code/cookiecutter-typer-crud-wip"
+}
